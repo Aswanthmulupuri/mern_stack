@@ -1,0 +1,339 @@
+body{
+    margin: auto;
+    font-family:'Times New Roman';
+}
+#headsection{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 255, 255);  */
+}
+#brandname{
+    display: inline-block;
+    width: 140px;
+    height: 70px;
+    margin-left: 150px;
+    font-size: 20px;
+    text-align: center ; 
+    font-family:'Times New Roman';
+    font-weight: bold;
+    margin-top: 22px;  
+}
+.beeicon{
+    display: inline-block;
+    margin: -28px;
+}
+
+select{
+    height: 40px;
+    width:200px;
+    border-radius: 100px;
+}
+#navigationbar{
+    float: right;
+    overflow: hidden;
+    padding-right: 8%;
+
+}
+#navigationbar >li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    background-color: #ffffff;
+}
+#navigationbar >li > a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+  }
+
+#uppersection{
+    height: 400px;
+    width: 99.9%;
+    background-color: rgb(3, 3, 34);
+    border: 0.1px solid rgb(255, 255, 255);
+    /* background: linear-gradient(0.25turn, #3f87a6, #70adbe, #c2ddeb); */
+}
+
+
+#logoicon{
+    height: 140px;
+    width: 140px;
+    background-color: #ffffff;
+    border-radius: 50%; 
+    margin-left: 48%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 330px; 
+}
+
+#logoicon > span{
+    margin-top: 2.8%;
+    position: absolute;
+    margin-left: -2.5%; 
+    font-family: 'Times New Roman';
+    
+}
+#lowersection{
+    
+    width: 65%;
+    /* border: 2px solid rgb(0, 255, 21); */
+    margin-left: 25%;
+    margin-top: 2%;
+}
+#offersheading{
+    
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+    display: block;
+    color:rgb(0, 0, 85);
+}
+#offerssideheading{
+    color: grey;
+    display: block;
+    font-size: 15px;
+    margin-left: 2%;
+    line-height: 2;
+}
+#main{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+#filter{
+    height:600px;
+    width:20%;
+    float: left;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px gray;
+}
+#insidefilter{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#discount{
+    margin-top: 10px;
+}
+.checked {
+    color: orange;
+  }
+.maincontainer{
+    margin-left: 0%;
+}
+
+.tilecontainer{
+    height: 400px;
+    width: 30.5%;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left:20px;
+    margin-top:20px;
+    box-shadow: 10px 15px 20px gray;
+}
+.tilecontainer:hover{
+    transform:scale(1.1);
+}
+hr {
+    
+    margin: 8px 0!important;
+}
+.tilecomponent1{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.tilecomponent1 > img{
+    width: 100%;
+    height: 60%;
+}
+.tilecomponent2{
+    margin-left:5%;
+    margin-right: 5%;
+}
+.quickview{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #a95651;
+}
+footer{
+    text-align: center; 
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: #ffffff;
+    }
+    #logoicon{
+        margin-left: 48%;
+    }
+    #logoicon > span{
+        margin-top: 2.8%;
+        margin-left: -2.8%;
+    }
+    .tilecontainer{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1430px){
+    body{
+        background-color: #ffffff;
+    }
+    #logoicon{
+        margin-left: 43.5%;
+    }
+    #logoicon > span{
+        margin-top: 3.0%;
+        margin-left: -2.8%;
+    }
+    .tilecontainer{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1320px){
+    body{
+        background-color: #ffffff;
+    }
+    #logoicon{
+        margin-left: 41.5%;
+       
+    }
+    #logoicon > span{
+        margin-top: 3.0%;
+        margin-left: -2.5%;
+    }
+    .tilecontainer{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1230px){
+   
+    #logoicon{
+        margin-left: 39.5%;
+       
+    }
+    #logoicon > span{
+        margin-top: 3.5%;
+        margin-left: -3.4%;
+    }
+    .tilecontainer{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:1130px){
+    
+    .tilecontainer{
+        width: 45%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 4.5%;
+        margin-left: -3.4%;
+    }
+}
+@media screen and (max-width:1030px){
+    .tilecontainer{
+        width: 45%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 4.9%;
+        margin-left: -3.6%;
+    }
+}
+
+@media screen and (max-width:930px){
+
+    .tilecontainer{
+        width: 45%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 5.2%;
+        margin-left: -3.8%;
+    }
+}
+@media screen and (max-width:830px){
+
+    .tilecontainer{
+        width: 85%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 5.9%;
+        margin-left: -3.9%;
+    }
+}
+@media screen and (max-width:740px){
+
+    .tilecontainer{
+        width: 85%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 6.9%;
+        margin-left: -4.6%;
+    }
+}
+@media screen and (max-width:640px){
+
+    .tilecontainer{
+        width: 85%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 7.9%;
+        margin-left: -5.6%;
+    }
+}
+@media screen and (max-width:550px){
+
+    .tilecontainer{
+        width: 85%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 8.9%;
+        margin-left: -6.6%;
+    }
+}
+@media screen and (max-width:430px){
+
+    .tilecontainer{
+        width: 85%;
+    }
+    #logoicon{
+        margin-left: 39.5%;
+    }
+    #logoicon > span{
+        margin-top: 4.9%;
+        margin-left: -3.6%;
+    }
+}
